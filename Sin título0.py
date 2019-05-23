@@ -1,36 +1,30 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed May 22 12:54:05 2019
-
-@author: Andrés
-"""
-
+import tkinter.ttk as ttk
 import tkinter as tk
-import time
+from PIL import ImageTk, Image
+import os
+from tkinter import Label
+root = tk.Tk()
+root2= tk.Toplevel()
+pestañas = ttk.Notebook(root2)
+marco = ttk.Frame(pestañas)
+marco2 = ttk.Frame(pestañas)
 
-class SampleApp(tk.Tk):
-    def __init__(self, *args, **kwargs):
-        tk.Tk.__init__(self, *args, **kwargs)
-        self.frame = tk.Frame(self)
-        self.frame.pack(side="top", fill = "both", expand=True)
 
-        self.label = tk.Label(self, text = "Hello, world")
-        button1 = tk.Button(self, text = "Start to do something",
-                                  command = self.do_something)
-        self.label.pack(in_=self.frame)
-        button1.pack(in_=self.frame)
+ruta=r"E:\OneDrive - Universidad de Cantabria\Recordar GIST - VARIOS\Aparcamientos\SCRIPTS PARK\Datos_2019-05-23 12-25-17\vehiculo_ID.1\screenshot0.png"
+#img = Image.open(ruta)
+#img = img.resize((500, 500), Image.ANTIALIAS)
+#img = ImageTk.PhotoImage(file = ruta)
+img = ImageTk.PhotoImage(Image.open(ruta))
+label=tk.Label(marco,image=img)
+tk.Button(marco, text='txt').pack()
+#label.image=img2
 
-    def do_something(self):
-        self.label.config(text = "Wait till I'm done...")
-        self.label.update_idletasks()
-        time.sleep(2)
-        print ("end sleep")
-        self.label.config(text = "I'm done doing...")
+#label.photo=img2
+label.pack()
+tk.Label(marco2,image=img).pack()
+tk.Button(marco2, text='txt').pack()
+pestañas.add(marco, text="1")
+pestañas.add(marco2, text="2=")
+pestañas.pack(padx=10, pady=10)
+root.mainloop()
 
-def main():
-    app = SampleApp()
-    app.mainloop()  
-    return 0
-
-if __name__ == '__main__':
-    main()

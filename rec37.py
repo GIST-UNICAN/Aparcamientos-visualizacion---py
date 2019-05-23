@@ -22,6 +22,11 @@ from itertools import count
 import selenium.webdriver
 import time
 import test_mapas
+import os
+from datetime import datetime
+import webbrowser
+
+
 
 df_mostrar = None
 
@@ -37,6 +42,10 @@ class TkinterApp(object):
         self.window = Tk()
         self.window.resizable(False, False)
         self.window.title("Park results")
+        #generamos la carpeta para guardar los datos
+        self.ruta_carpeta = os.getcwd()+"\\Datos_{}".format(datetime.now().strftime("%Y-%m-%d %H-%M-%S"))
+        if not os.path.exists(self.ruta_carpeta):
+            os.makedirs(self.ruta_carpeta)
         for texto, contador in zip(self.txt_mostrar, count(0)):
             self.txt_numero = StringVar()
             self.txt_numero.set(0)
@@ -81,7 +90,7 @@ class TkinterApp(object):
         t2.start()
         # creamos una conexion inversa con el otro hilo
     def abrir_ventana_mapas(self, dataframe):
-        test_mapas.lanza_mapa(self, dataframe)
+        test_mapas.lanza_mapa(self, dataframe, self.ruta_carpeta)
         
     def OnDoubleClick(self, event):
         global df_mostrar
@@ -140,7 +149,7 @@ class TkinterApp(object):
         try:
             diccionario = cola2.get(0)
             diccionario = pd.read_excel(
-                r"C:\Users\Andrés\Desktop\informes\2019-05-20__08_53_59_informe.xlsx")
+                r"C:\Users\Andrés\Desktop\informes\2019-05-21__13_17_55_informe.xlsx")
             df_mostrar = copy.deepcopy(diccionario)
             print(df_mostrar.head())
             df_mostrar.set_index('ID', inplace=True)
