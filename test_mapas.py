@@ -22,6 +22,7 @@ import webbrowser
 
 
 def lanza_mapa(self, dataframe, ruta_carpeta):
+    print(dataframe['track'])
     id_vehiculo=str(dataframe.index[0])
     ruta_carpeta_vehiculo = ruta_carpeta+"\\vehiculo_{}".format(id_vehiculo)
     if not os.path.exists(ruta_carpeta_vehiculo):
