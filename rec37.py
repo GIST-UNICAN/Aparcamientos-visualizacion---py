@@ -16,6 +16,12 @@ from socket import socket, AF_INET, SOCK_STREAM
 from marshal import loads
 from queue import Empty
 import copy
+import folium
+import ast
+from itertools import count
+import selenium.webdriver
+import time
+import test_mapas
 
 df_mostrar = None
 
@@ -74,7 +80,9 @@ class TkinterApp(object):
         t2 = multiprocessing.Process(target=envia_peticion, args=(q2,))
         t2.start()
         # creamos una conexion inversa con el otro hilo
-
+    def abrir_ventana_mapas(self, dataframe):
+        test_mapas.lanza_mapa(self, dataframe)
+        
     def OnDoubleClick(self, event):
         global df_mostrar
         try:
@@ -120,7 +128,7 @@ class TkinterApp(object):
             Button(
                 ventana_detalle,
                 text="Ver mapas",
-                command=lambda: self.callback()).grid(
+                command=lambda: self.abrir_ventana_mapas(fila)).grid(
                 row=12,
                 columnspan=2,
                 pady=20)
@@ -131,8 +139,8 @@ class TkinterApp(object):
         global df_mostrar
         try:
             diccionario = cola2.get(0)
-#            diccionario = pd.read_excel(
-#                r"C:\Users\Andrés\Desktop\informes\2019-05-20__08_53_59_informe.xlsx")
+            diccionario = pd.read_excel(
+                r"C:\Users\Andrés\Desktop\informes\2019-05-20__08_53_59_informe.xlsx")
             df_mostrar = copy.deepcopy(diccionario)
             print(df_mostrar.head())
             df_mostrar.set_index('ID', inplace=True)
@@ -207,26 +215,26 @@ def recibe_datos(cola):
 
 
 def envia_peticion(cola):  # Estamos creando un proceso Python cada vez que pulsamos
-#    cola.put(True)
+    cola.put(True)
     # el botón. No es óptimo.
-    host = 'localhost'    # The remote host
-    port = 50028           # The same port as used by the server
-    respuestas = []
-    tamaño_del_bufer = 524288
-    with socket(AF_INET, SOCK_STREAM) as s:
-        print('Socket')
-        s.connect((host, port))
-        respuesta = None
-        while respuesta != b"Fin":
-            s.sendall(b'g')
-            respuesta = s.recv(tamaño_del_bufer)
-            respuestas.append(respuesta)
-#            print("Recibí en bruto", respuesta)
-        print("Cerrando socket.")
-    if respuestas:
-        texto = loads(respuestas[0])
-        df=pd.read_json(texto)
-        cola.put(df)
+#    host = 'localhost'    # The remote host
+#    port = 50028           # The same port as used by the server
+#    respuestas = []
+#    tamaño_del_bufer = 524288
+#    with socket(AF_INET, SOCK_STREAM) as s:
+#        print('Socket')
+#        s.connect((host, port))
+#        respuesta = None
+#        while respuesta != b"Fin":
+#            s.sendall(b'g')
+#            respuesta = s.recv(tamaño_del_bufer)
+#            respuestas.append(respuesta)
+##            print("Recibí en bruto", respuesta)
+#        print("Cerrando socket.")
+#    if respuestas:
+#        texto = loads(respuestas[0])
+#        df=pd.read_json(texto)
+#        cola.put(df)
 #    print("Lo enviado fue:", texto)
 
 
