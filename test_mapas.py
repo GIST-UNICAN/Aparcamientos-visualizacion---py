@@ -17,12 +17,13 @@ from selenium.webdriver.chrome.options import Options
 from PIL import ImageTk, Image
 import os
 import webbrowser
+from folium.plugins import AntPath
 #driver = selenium.webdriver.Firefox(r"C:\Users\Andrés\Downloads\geckodriver-v0.24.0-win64\geckodriver.exe")
 
 
 
 def lanza_mapa(self, dataframe, ruta_carpeta):
-    print(dataframe['track'])
+    colores=('blue','pink','orange','red','purple','yellow','green','brown','grey')
     id_vehiculo=str(dataframe.index[0])
     ruta_carpeta_vehiculo = ruta_carpeta+"\\vehiculo_{}".format(id_vehiculo)
     if not os.path.exists(ruta_carpeta_vehiculo):
@@ -53,6 +54,10 @@ def lanza_mapa(self, dataframe, ruta_carpeta):
     #cargamos los puntos medios de las calles y los puntos iniciales y finales para el path
     calles_medio= pd.read_excel(r"calles_medios.xls")
     calles_medio.set_index('Name', inplace=True)
+    calles_inicio= pd.read_excel(r"calles_inicios.xls")
+    calles_inicio.set_index('Name', inplace=True)
+    calles_fin= pd.read_excel(r"calles_finales.xls")
+    calles_fin.set_index('Name', inplace=True)
     
     id_coche=id_vehiculo
     
@@ -60,6 +65,9 @@ def lanza_mapa(self, dataframe, ruta_carpeta):
     secciones_intento=ast.literal_eval(dataframe_partida['Secciones intento aparcamiento'])
     utilidades=dataframe_partida['Utilidades iteraciones'].replace("L","").replace("nan","-999")
     utilidades=ast.literal_eval(utilidades)
+    tracks_pintar=ast.literal_eval(dataframe_partida['track_secciones'])
+    marcadores=[]
+    tracks_seguidos=[]
     
     for elemento,iteracion in zip(utilidades, count(0)):
         #marco ventanas
@@ -72,10 +80,13 @@ def lanza_mapa(self, dataframe, ruta_carpeta):
         destino=dataframe_partida['Nodo destino']
         intento_aparcamiento=secciones_intento[iteracion]
         
-        #ponemos los marcadores de los sitios de paso el destino 
-        folium.Marker([calles_medio.loc[destino,'lat'], calles_medio.loc[destino,'long']], tooltip="Destino", icon=folium.Icon(color='green')).add_to(m)
-        folium.Marker([calles_medio.loc[aparcamiento,'lat'], calles_medio.loc[aparcamiento,'long']], tooltip="Aparcamiento",icon=folium.Icon(color='red')).add_to(m)
-        folium.Marker([calles_medio.loc[intento_aparcamiento,'lat'], calles_medio.loc[intento_aparcamiento,'long']], tooltip="Intento Aparcamiento",icon=folium.Icon(color='blue')).add_to(m)    
+        #ponemos los marcadores de los sitios de paso el destino
+        folium.Marker([calles_medio.loc[destino,'lat'], calles_medio.loc[destino,'long']], tooltip="Destino", permanet=True,icon=folium.Icon(color='green')).add_to(m)
+#        folium.Marker([calles_medio.loc[aparcamiento,'lat'], calles_medio.loc[aparcamiento,'long']], tooltip="Aparcamiento",icon=folium.Icon(color='red')).add_to(m)
+        marcador_paso=folium.Marker([calles_medio.loc[intento_aparcamiento,'lat'], calles_medio.loc[intento_aparcamiento,'long']], tooltip="Intento {}".format(str(iteracion)),permanet=True,icon=folium.Icon(color='blue'))    
+        marcadores.append(marcador_paso)
+        for x in marcadores:
+            x.add_to(m)
         
         #se manipula el df de utilidades y se pinta haciendo una capa nueva 
         utilidades_fin=pd.DataFrame.from_dict(elemento['utilidades'], columns=[ 'util'],orient='index')
@@ -90,7 +101,18 @@ def lanza_mapa(self, dataframe, ruta_carpeta):
             fill_color='OrRd',
             legend_name='Utilidad',
         ).add_to(m)
-                
+        
+        #cogemos el track del vehiculo que estamos siguiendo
+        track_total=[]
+        for seccion in tracks_pintar[iteracion]:
+            track_total.append((calles_inicio.loc[seccion,'lat'],calles_inicio.loc[seccion,'long']))
+            track_total.append((calles_fin.loc[seccion,'lat'],calles_fin.loc[seccion,'long']))    
+        track_iter=AntPath(tuple(track_total),color= colores[iteracion])
+        tracks_seguidos.append(track_iter)
+        for viaje in tracks_seguidos:
+            viaje.add_to(m)
+        
+        
         # se guarda el mapa y se saca el pantallazo
         ruta_mapa=ruta_carpeta_vehiculo+'mapa{}.html'.format(str(iteracion))
         m.save(ruta_mapa) 
@@ -103,6 +125,7 @@ def lanza_mapa(self, dataframe, ruta_carpeta):
         label=tk.Label(marco,text=ruta_imagen, image=img)
         label.image=img
         label.pack()
+        tk.Label(marco,text='Se representan en azul los puntos de intento de aparcamiento del vehiculo, para una mejor visualización se recomienda ver el mapa interacitivo en el navegador').pack()
         tk.Button(marco, text="Abrir mapa en navegador",
                   command= lambda : webbrowser.open(ruta_mapa, new=2)).pack()
         pestañas.add(marco, text="Iteración {}".format(str(iteracion)), padding=10)

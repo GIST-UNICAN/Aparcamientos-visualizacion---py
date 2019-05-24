@@ -3,6 +3,7 @@ import tkinter as tk
 from PIL import ImageTk, Image
 import os
 from tkinter import Label
+from folium import plugins
 root = tk.Tk()
 root2= tk.Toplevel()
 pestañas = ttk.Notebook(root2)
