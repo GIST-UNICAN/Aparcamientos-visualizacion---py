@@ -62,6 +62,8 @@ def lanza_mapa(self, dataframe, ruta_carpeta):
     id_coche=id_vehiculo
     
     #cargamos las secciones donde ha intentado aparcar
+    print(type(dataframe_partida['Secciones intento aparcamiento']))
+    print(dataframe_partida['Secciones intento aparcamiento'])
     secciones_intento=ast.literal_eval(dataframe_partida['Secciones intento aparcamiento'])
     utilidades=dataframe_partida['Utilidades iteraciones'].replace("L","").replace("nan","-999")
     utilidades=ast.literal_eval(utilidades)

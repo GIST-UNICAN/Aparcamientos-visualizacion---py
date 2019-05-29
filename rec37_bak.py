@@ -1,31 +1,30 @@
 from multiprocessing.connection import Client
-#from multiprocessing.connection import Listener
+from multiprocessing.connection import Listener
 import multiprocessing
-#from multiprocessing import Queue
+from multiprocessing import Queue
 import time
-#from array import array
+from array import array
 ##from multiprocessing import Manager
 import pandas as pd
 from tkinter import *
 from tkinter.ttk import Treeview, Scrollbar
 from itertools import count
-#import asyncio
-#import threading
+import asyncio
+import threading
 import traceback
 from socket import socket, AF_INET, SOCK_STREAM
 from marshal import loads
 from queue import Empty
 import copy
-#import folium
-#import ast
-#from itertools import count
-#import selenium.webdriver
-#import time
+import folium
+import ast
+from itertools import count
+import selenium.webdriver
+import time
 import test_mapas
 import os
 from datetime import datetime
-#import webbrowser
-import sys
+import webbrowser
 
 
 
@@ -149,8 +148,8 @@ class TkinterApp(object):
         global df_mostrar
         try:
             diccionario = cola2.get(0)
-#            diccionario = pd.read_excel(
-#                r"C:\Users\Andrés\Desktop\informes\2019-05-24__08_27_06_informe.xlsx")
+            diccionario = pd.read_excel(
+                r"C:\Users\Andrés\Desktop\informes\2019-05-24__08_27_06_informe.xlsx")
             df_mostrar = copy.deepcopy(diccionario)
             print(df_mostrar.head())
             df_mostrar.set_index('ID', inplace=True)
@@ -225,28 +224,27 @@ def recibe_datos(cola):
 
 
 def envia_peticion(cola):  # Estamos creando un proceso Python cada vez que pulsamos
-#    cola.put(True)
+    cola.put(True)
     # el botón. No es óptimo.
-    puerto=int(sys.argv[1])
-    host = 'localhost'    # The remote host
-    port = puerto           # The same port as used by the server
-    respuestas = []
-    tamaño_del_bufer = 524288
-    with socket(AF_INET, SOCK_STREAM) as s:
-        print('Socket')
-        s.connect((host, port))
-        respuesta = None
-        while respuesta != b"Fin":
-            s.sendall(b'g')
-            respuesta = s.recv(tamaño_del_bufer)
-            respuestas.append(respuesta)
-#            print("Recibí en bruto", respuesta)
-        print("Cerrando socket.")
-    if respuestas:
-        texto = loads(respuestas[0])
-        df=pd.read_json(texto)
-        cola.put(df)
-    print("Lo enviado fue:", texto)
+#    host = 'localhost'    # The remote host
+#    port = 50028           # The same port as used by the server
+#    respuestas = []
+#    tamaño_del_bufer = 524288
+#    with socket(AF_INET, SOCK_STREAM) as s:
+#        print('Socket')
+#        s.connect((host, port))
+#        respuesta = None
+#        while respuesta != b"Fin":
+#            s.sendall(b'g')
+#            respuesta = s.recv(tamaño_del_bufer)
+#            respuestas.append(respuesta)
+##            print("Recibí en bruto", respuesta)
+#        print("Cerrando socket.")
+#    if respuestas:
+#        texto = loads(respuestas[0])
+#        df=pd.read_json(texto)
+#        cola.put(df)
+#    print("Lo enviado fue:", texto)
 
 
 if __name__ == '__main__':
