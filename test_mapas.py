@@ -18,11 +18,13 @@ from PIL import ImageTk, Image
 import os
 import webbrowser
 from folium.plugins import AntPath
+import logging
+logging.basicConfig(filename=r"C:\Users\Andrés\Downloads\test_mapas.txt",
+                    level=logging.DEBUG)
 #driver = selenium.webdriver.Firefox(r"C:\Users\Andrés\Downloads\geckodriver-v0.24.0-win64\geckodriver.exe")
+logging.info(f"ruta_local: {os.getcwd()}")
 
-
-
-def lanza_mapa(self, dataframe, ruta_carpeta):
+def lanza_mapa(self, dataframe, ruta_carpeta,from_excel=False):
     colores=('blue','pink','orange','red','purple','yellow','green','brown','grey')
     id_vehiculo=str(dataframe.index[0])
     ruta_carpeta_vehiculo = ruta_carpeta+"\\vehiculo_{}".format(id_vehiculo)
@@ -52,11 +54,11 @@ def lanza_mapa(self, dataframe, ruta_carpeta):
 #    dataframe_partida.set_index('ID', inplace=True, drop = False)
     
     #cargamos los puntos medios de las calles y los puntos iniciales y finales para el path
-    calles_medio= pd.read_excel(r"calles_medios.xls")
+    calles_medio= pd.read_excel(r"E:\OneDrive - Universidad de Cantabria\Recordar GIST - VARIOS\Aparcamientos\SCRIPTS PARK\calles_medios.xls")
     calles_medio.set_index('Name', inplace=True)
-    calles_inicio= pd.read_excel(r"calles_inicios.xls")
+    calles_inicio= pd.read_excel(r"E:\OneDrive - Universidad de Cantabria\Recordar GIST - VARIOS\Aparcamientos\SCRIPTS PARK\calles_inicios.xls")
     calles_inicio.set_index('Name', inplace=True)
-    calles_fin= pd.read_excel(r"calles_finales.xls")
+    calles_fin= pd.read_excel(r"E:\OneDrive - Universidad de Cantabria\Recordar GIST - VARIOS\Aparcamientos\SCRIPTS PARK\calles_finales.xls")
     calles_fin.set_index('Name', inplace=True)
     
     id_coche=id_vehiculo
@@ -64,14 +66,21 @@ def lanza_mapa(self, dataframe, ruta_carpeta):
     #cargamos las secciones donde ha intentado aparcar
     print(type(dataframe_partida['Secciones intento aparcamiento']))
     print(dataframe_partida['Secciones intento aparcamiento'])
-    secciones_intento=ast.literal_eval(dataframe_partida['Secciones intento aparcamiento'])
-    utilidades=dataframe_partida['Utilidades iteraciones'].replace("L","").replace("nan","-999")
-    utilidades=ast.literal_eval(utilidades)
-    tracks_pintar=ast.literal_eval(dataframe_partida['track_secciones'])
+    if from_excel:
+        secciones_intento=ast.literal_eval(dataframe_partida['Secciones intento aparcamiento'])
+        utilidades=dataframe_partida['Utilidades iteraciones'].replace("L","").replace("nan","-999")
+        utilidades=ast.literal_eval(utilidades)
+        tracks_pintar=ast.literal_eval(dataframe_partida['track_secciones'])
+    else:
+        secciones_intento=dataframe_partida['Secciones intento aparcamiento']#
+        utilidades=dataframe_partida['Utilidades iteraciones']#ast.literal_eval(utilidades)
+        tracks_pintar=dataframe_partida['track_secciones']#ast.literal_eval(dataframe_partida['track_secciones'])
     marcadores=[]
     tracks_seguidos=[]
-    
-    for elemento,iteracion in zip(utilidades, count(0)):
+    seccion_de_paso= dataframe_partida['Seccion de paso']=='si'
+    if seccion_de_paso:
+        utilidades=utilidades[:-1]
+    for elemento,iteracion in zip(utilidades, count(0)):  
         #marco ventanas
         marco=Frame(pestañas)
         #se carga el mapa centrado en la zona ded estudio

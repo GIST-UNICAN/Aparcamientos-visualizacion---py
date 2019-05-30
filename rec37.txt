@@ -1,0 +1,1 @@
+INFO:root:ruta_local: C:\Users\Andrés

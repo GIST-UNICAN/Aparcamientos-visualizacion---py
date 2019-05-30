@@ -26,7 +26,12 @@ import os
 from datetime import datetime
 #import webbrowser
 import sys
-
+import logging
+logging.basicConfig(filename=r"E:\OneDrive - Universidad de Cantabria\Recordar GIST - VARIOS\Aparcamientos\SCRIPTS PARK\rec37.txt",
+                    level=logging.DEBUG)
+#driver = selenium.webdriver.Firefox(r"C:\Users\Andrés\Downloads\geckodriver-v0.24.0-win64\geckodriver.exe")
+logging.info(f"ruta_local: {os.getcwd()}")
+from_excel=True
 
 
 df_mostrar = None
@@ -91,7 +96,7 @@ class TkinterApp(object):
         t2.start()
         # creamos una conexion inversa con el otro hilo
     def abrir_ventana_mapas(self, dataframe):
-        test_mapas.lanza_mapa(self, dataframe, self.ruta_carpeta)
+        test_mapas.lanza_mapa(self, dataframe, self.ruta_carpeta, from_excel)
         
     def OnDoubleClick(self, event):
         global df_mostrar
@@ -149,10 +154,11 @@ class TkinterApp(object):
         global df_mostrar
         try:
             diccionario = cola2.get(0)
-#            diccionario = pd.read_excel(
-#                r"C:\Users\Andrés\Desktop\informes\2019-05-24__08_27_06_informe.xlsx")
+            if from_excel:
+                diccionario = pd.read_excel(
+                    r"C:\Users\Andrés\Desktop\informes\2019-05-30__10_20_59_informe.xlsx")
             df_mostrar = copy.deepcopy(diccionario)
-            print(df_mostrar.head())
+#            print(df_mostrar.head())
             df_mostrar.set_index('ID', inplace=True)
             self.ventana = Toplevel()
             self.ventana.title('Coches aparcados')
@@ -225,28 +231,30 @@ def recibe_datos(cola):
 
 
 def envia_peticion(cola):  # Estamos creando un proceso Python cada vez que pulsamos
-#    cola.put(True)
-    # el botón. No es óptimo.
-    puerto=int(sys.argv[1])
-    host = 'localhost'    # The remote host
-    port = puerto           # The same port as used by the server
-    respuestas = []
-    tamaño_del_bufer = 524288
-    with socket(AF_INET, SOCK_STREAM) as s:
-        print('Socket')
-        s.connect((host, port))
-        respuesta = None
-        while respuesta != b"Fin":
-            s.sendall(b'g')
-            respuesta = s.recv(tamaño_del_bufer)
-            respuestas.append(respuesta)
-#            print("Recibí en bruto", respuesta)
-        print("Cerrando socket.")
-    if respuestas:
-        texto = loads(respuestas[0])
-        df=pd.read_json(texto)
-        cola.put(df)
-    print("Lo enviado fue:", texto)
+    if from_excel:
+        cola.put(True)
+    else:
+#         el botón. No es óptimo.
+        puerto=int(sys.argv[1])
+        host = 'localhost'    # The remote host
+        port = puerto           # The same port as used by the server
+        respuestas = []
+        tamaño_del_bufer = 524288
+        with socket(AF_INET, SOCK_STREAM) as s:
+            print('Socket')
+            s.connect((host, port))
+            respuesta = None
+            while respuesta != b"Fin":
+                s.sendall(b'g')
+                respuesta = s.recv(tamaño_del_bufer)
+                respuestas.append(respuesta)
+    #            print("Recibí en bruto", respuesta)
+            print("Cerrando socket.")
+        if respuestas:
+            texto = loads(respuestas[0])
+            df=pd.read_json(texto)
+            cola.put(df)
+        print("Lo enviado fue:", texto)
 
 
 if __name__ == '__main__':
