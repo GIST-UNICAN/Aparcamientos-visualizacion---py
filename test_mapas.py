@@ -17,7 +17,7 @@ from selenium.webdriver.chrome.options import Options
 from PIL import ImageTk, Image
 import os
 import webbrowser
-from folium.plugins import AntPath
+from folium.plugins import AntPath, BeautifyIcon
 import logging
 logging.basicConfig(filename=r"C:\Users\Andrés\Downloads\test_mapas.txt",
                     level=logging.DEBUG)
@@ -92,9 +92,11 @@ def lanza_mapa(self, dataframe, ruta_carpeta,from_excel=False):
         intento_aparcamiento=secciones_intento[iteracion]
         
         #ponemos los marcadores de los sitios de paso el destino
-        folium.Marker([calles_medio.loc[destino,'lat'], calles_medio.loc[destino,'long']], tooltip="Destino", permanet=True,icon=folium.Icon(color='green')).add_to(m)
+        folium.Marker([calles_medio.loc[destino,'lat'], calles_medio.loc[destino,'long']], tooltip="Destino", permanent=True,icon=folium.Icon(color='green')).add_to(m)
 #        folium.Marker([calles_medio.loc[aparcamiento,'lat'], calles_medio.loc[aparcamiento,'long']], tooltip="Aparcamiento",icon=folium.Icon(color='red')).add_to(m)
-        marcador_paso=folium.Marker([calles_medio.loc[intento_aparcamiento,'lat'], calles_medio.loc[intento_aparcamiento,'long']], tooltip="Intento {}".format(str(iteracion)),permanet=True,icon=folium.Icon(color='blue'))    
+        
+        marcador_paso=folium.Marker([calles_medio.loc[intento_aparcamiento,'lat'], calles_medio.loc[intento_aparcamiento,'long']], tooltip="Intento {}".format(str(iteracion)),permanent=True,icon=folium.Icon(color='blue'))    
+        BeautifyIcon(number=iteracion+1, icon_shape='marker',border_color='blue').add_to(marcador_paso)
         marcadores.append(marcador_paso)
         for x in marcadores:
             x.add_to(m)
