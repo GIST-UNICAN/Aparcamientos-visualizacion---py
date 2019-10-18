@@ -156,7 +156,7 @@ class TkinterApp(object):
             diccionario = cola2.get(0)
             if from_excel:
                 diccionario = pd.read_excel(
-                    r"C:\Users\Andrés\Desktop\informes\2019-06-11__13_26_12_informe.xlsx")
+                    r"C:\Users\Andrés\Desktop\informes\2019-10-17__15_28_53_informe.xlsx")
             df_mostrar = copy.deepcopy(diccionario)
 #            print(df_mostrar.head())
             df_mostrar.set_index('ID', inplace=True)
