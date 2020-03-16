@@ -19,7 +19,7 @@ import os
 import webbrowser
 from folium.plugins import AntPath, BeautifyIcon
 import logging
-logging.basicConfig(filename=r"C:\Users\Andrés\Downloads\test_mapas.txt",
+logging.basicConfig(filename=r"C:\Users\Tablet\Documents\GitHub\Aparcamientos-visualizacion---py\test_mapas.txt",
                     level=logging.DEBUG)
 #driver = selenium.webdriver.Firefox(r"C:\Users\Andrés\Downloads\geckodriver-v0.24.0-win64\geckodriver.exe")
 logging.info(f"ruta_local: {os.getcwd()}")
@@ -54,11 +54,11 @@ def lanza_mapa(self, dataframe, ruta_carpeta,from_excel=False):
 #    dataframe_partida.set_index('ID', inplace=True, drop = False)
     
     #cargamos los puntos medios de las calles y los puntos iniciales y finales para el path
-    calles_medio= pd.read_excel(r"E:\OneDrive - Universidad de Cantabria\Recordar GIST - VARIOS\Aparcamientos\SCRIPTS PARK\calles_medios.xls")
+    calles_medio= pd.read_excel(r"calles_medios.xls")
     calles_medio.set_index('Name', inplace=True)
-    calles_inicio= pd.read_excel(r"E:\OneDrive - Universidad de Cantabria\Recordar GIST - VARIOS\Aparcamientos\SCRIPTS PARK\calles_inicios.xls")
+    calles_inicio= pd.read_excel(r"calles_inicios.xls")
     calles_inicio.set_index('Name', inplace=True)
-    calles_fin= pd.read_excel(r"E:\OneDrive - Universidad de Cantabria\Recordar GIST - VARIOS\Aparcamientos\SCRIPTS PARK\calles_finales.xls")
+    calles_fin= pd.read_excel(r"calles_finales.xls")
     calles_fin.set_index('Name', inplace=True)
     
     id_coche=id_vehiculo

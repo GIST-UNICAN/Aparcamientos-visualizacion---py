@@ -27,7 +27,7 @@ from datetime import datetime
 #import webbrowser
 import sys
 import logging
-logging.basicConfig(filename=r"E:\OneDrive - Universidad de Cantabria\Recordar GIST - VARIOS\Aparcamientos\SCRIPTS PARK\rec37.txt",
+logging.basicConfig(filename=r"rec37.txt",
                     level=logging.DEBUG)
 #driver = selenium.webdriver.Firefox(r"C:\Users\Andrés\Downloads\geckodriver-v0.24.0-win64\geckodriver.exe")
 logging.info(f"ruta_local: {os.getcwd()}")

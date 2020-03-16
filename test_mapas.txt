@@ -1,0 +1,47 @@
+INFO:root:ruta_local: C:\Users\Tablet\Documents\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: C:\Users\Tablet\Documents\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: C:\Users\Tablet\Documents\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: C:\Users\Tablet\Documents\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: C:\Users\Tablet\Documents\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
