@@ -30,8 +30,8 @@ import logging
 logging.basicConfig(filename=r"rec37.txt",
                     level=logging.DEBUG)
 #driver = selenium.webdriver.Firefox(r"C:\Users\Andrés\Downloads\geckodriver-v0.24.0-win64\geckodriver.exe")
-logging.info(f"ruta_local: {os.getcwd()}")
-from_excel=True
+logging.error(f"ruta_local: {os.getcwd()}")
+from_excel=False
 
 
 df_mostrar = None
