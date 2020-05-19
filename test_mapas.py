@@ -19,7 +19,7 @@ import os
 import webbrowser
 from folium.plugins import AntPath, BeautifyIcon
 import logging
-logging.basicConfig(filename=r"C:\Users\Tablet\Documents\GitHub\Aparcamientos-visualizacion---py\test_mapas.txt",
+logging.basicConfig(filename=r"D:\Documentos\GitHub\Aparcamientos-visualizacion---py\test_mapas.txt",
                     level=logging.DEBUG)
 #driver = selenium.webdriver.Firefox(r"C:\Users\Andrés\Downloads\geckodriver-v0.24.0-win64\geckodriver.exe")
 logging.info(f"ruta_local: {os.getcwd()}")

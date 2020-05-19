@@ -163,3 +163,105 @@ INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
 ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
 INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
 ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:63709/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:63709
+DEBUG:urllib3.connectionpool:http://127.0.0.1:63709 "POST /session HTTP/1.1" 200 317
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:63825/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:63825
+DEBUG:urllib3.connectionpool:http://127.0.0.1:63825 "POST /session HTTP/1.1" 200 317
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:64682/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:64682
+DEBUG:urllib3.connectionpool:http://127.0.0.1:64682 "POST /session HTTP/1.1" 200 720
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
