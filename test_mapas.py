@@ -47,7 +47,8 @@ def lanza_mapa(self, dataframe, ruta_carpeta,from_excel=False):
     # cargamos el selenium que de fondo va a renderizar los mapas 
     driver = selenium.webdriver.Chrome(chrome_options=chrome_options)
     #cargamos el geojson de base
-    geojson= r"C:\Users\Andrés\Desktop\mapa2.geojson"
+    #geojson= r"C:\Users\Andrés\Desktop\mapa2.geojson"
+    geojson= r"D:\Documentos\GitHub\Aparcamientos-visualizacion---py\mapa.geojson"
     
     dataframe_partida = dataframe
     
@@ -90,6 +91,9 @@ def lanza_mapa(self, dataframe, ruta_carpeta,from_excel=False):
         aparcamiento=dataframe_partida['Nodo aparcamiento']
         destino=dataframe_partida['Nodo destino']
         intento_aparcamiento=secciones_intento[iteracion]
+        
+        #marcador final parking
+        folium.Marker([calles_medio.loc[aparcamiento,'lat'], calles_medio.loc[aparcamiento,'long']], tooltip="Parking final", permanent=True,icon=folium.Icon(color='black')).add_to(m)
         
         #ponemos los marcadores de los sitios de paso el destino
         folium.Marker([calles_medio.loc[destino,'lat'], calles_medio.loc[destino,'long']], tooltip="Destino", permanent=True,icon=folium.Icon(color='green')).add_to(m)
