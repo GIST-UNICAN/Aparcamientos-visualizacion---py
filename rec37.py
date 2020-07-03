@@ -27,10 +27,10 @@ from datetime import datetime
 #import webbrowser
 import sys
 import logging
-logging.basicConfig(filename=r"E:\OneDrive - Universidad de Cantabria\Recordar GIST - VARIOS\Aparcamientos\SCRIPTS PARK\rec37.txt",
+logging.basicConfig(filename=r"rec37.txt",
                     level=logging.DEBUG)
 #driver = selenium.webdriver.Firefox(r"C:\Users\Andrés\Downloads\geckodriver-v0.24.0-win64\geckodriver.exe")
-logging.info(f"ruta_local: {os.getcwd()}")
+logging.error(f"ruta_local: {os.getcwd()}")
 from_excel=True
 
 
@@ -85,6 +85,7 @@ class TkinterApp(object):
     def comprobar_cola(self, c_queue):
         try:
             datos_cola = c_queue.get(0)
+            print("rec: ",datos_cola)
             self.lista_labels_actualizar[datos_cola[0]].set(str(datos_cola[1]))
         except Exception as e:
             pass
@@ -156,7 +157,7 @@ class TkinterApp(object):
             diccionario = cola2.get(0)
             if from_excel:
                 diccionario = pd.read_excel(
-                    r"C:\Users\Andrés\Desktop\informes\2019-10-17__15_28_53_informe.xlsx")
+                    r"C:\Users\Tablet\Desktop\2020-05-19__13_49_12_informe.xlsx")
             df_mostrar = copy.deepcopy(diccionario)
 #            print(df_mostrar.head())
             df_mostrar.set_index('ID', inplace=True)
@@ -255,7 +256,7 @@ def envia_peticion(cola):  # Estamos creando un proceso Python cada vez que puls
             texto = loads(respuestas[0])
             df=pd.read_json(texto)
             cola.put(df)
-        print("Lo enviado fue:", texto)
+        #print("Lo enviado fue:", texto)
 
 
 if __name__ == '__main__':

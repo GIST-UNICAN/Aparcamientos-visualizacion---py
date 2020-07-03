@@ -19,7 +19,7 @@ import os
 import webbrowser
 from folium.plugins import AntPath, BeautifyIcon
 import logging
-logging.basicConfig(filename=r"C:\Users\Andrés\Downloads\test_mapas.txt",
+logging.basicConfig(filename=r"D:\Documentos\GitHub\Aparcamientos-visualizacion---py\test_mapas.txt",
                     level=logging.DEBUG)
 #driver = selenium.webdriver.Firefox(r"C:\Users\Andrés\Downloads\geckodriver-v0.24.0-win64\geckodriver.exe")
 logging.info(f"ruta_local: {os.getcwd()}")
@@ -47,18 +47,19 @@ def lanza_mapa(self, dataframe, ruta_carpeta,from_excel=False):
     # cargamos el selenium que de fondo va a renderizar los mapas 
     driver = selenium.webdriver.Chrome(chrome_options=chrome_options)
     #cargamos el geojson de base
-    geojson= r"C:\Users\Andrés\Desktop\mapa2.geojson"
+    #geojson= r"C:\Users\Andrés\Desktop\mapa2.geojson"
+    geojson= r"D:\Documentos\GitHub\Aparcamientos-visualizacion---py\mapa.geojson"
     
     dataframe_partida = dataframe
     
 #    dataframe_partida.set_index('ID', inplace=True, drop = False)
     
     #cargamos los puntos medios de las calles y los puntos iniciales y finales para el path
-    calles_medio= pd.read_excel(r"E:\OneDrive - Universidad de Cantabria\Recordar GIST - VARIOS\Aparcamientos\SCRIPTS PARK\calles_medios.xls")
+    calles_medio= pd.read_excel(r"calles_medios.xls")
     calles_medio.set_index('Name', inplace=True)
-    calles_inicio= pd.read_excel(r"E:\OneDrive - Universidad de Cantabria\Recordar GIST - VARIOS\Aparcamientos\SCRIPTS PARK\calles_inicios.xls")
+    calles_inicio= pd.read_excel(r"calles_inicios.xls")
     calles_inicio.set_index('Name', inplace=True)
-    calles_fin= pd.read_excel(r"E:\OneDrive - Universidad de Cantabria\Recordar GIST - VARIOS\Aparcamientos\SCRIPTS PARK\calles_finales.xls")
+    calles_fin= pd.read_excel(r"calles_finales.xls")
     calles_fin.set_index('Name', inplace=True)
     
     id_coche=id_vehiculo
@@ -90,6 +91,9 @@ def lanza_mapa(self, dataframe, ruta_carpeta,from_excel=False):
         aparcamiento=dataframe_partida['Nodo aparcamiento']
         destino=dataframe_partida['Nodo destino']
         intento_aparcamiento=secciones_intento[iteracion]
+        
+        #marcador final parking
+        folium.Marker([calles_medio.loc[aparcamiento,'lat'], calles_medio.loc[aparcamiento,'long']], tooltip="Parking final", permanent=True,icon=folium.Icon(color='black')).add_to(m)
         
         #ponemos los marcadores de los sitios de paso el destino
         folium.Marker([calles_medio.loc[destino,'lat'], calles_medio.loc[destino,'long']], tooltip="Destino", permanent=True,icon=folium.Icon(color='green')).add_to(m)
