@@ -261,7 +261,8 @@ def envia_peticion(cola):  # Estamos creando un proceso Python cada vez que puls
         host = 'localhost'    # The remote host
         port = puerto           # The same port as used by the server
         respuestas = []
-        tamaño_del_bufer = 524288
+        tamaño_del_bufe
+        r = 524288
         with socket(AF_INET, SOCK_STREAM) as s:
             print('Socket')
             s.connect((host, port))
