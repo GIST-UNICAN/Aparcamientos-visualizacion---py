@@ -31,7 +31,7 @@ logging.basicConfig(filename=r"rec37.txt",
                     level=logging.DEBUG)
 #driver = selenium.webdriver.Firefox(r"C:\Users\Andrés\Downloads\geckodriver-v0.24.0-win64\geckodriver.exe")
 logging.error(f"ruta_local: {os.getcwd()}")
-from_excel=True
+from_excel=False
 
 
 df_mostrar = None
@@ -39,11 +39,11 @@ df_mostrar = None
 
 class TkinterApp(object):
     def __init__(self, q, q2):
-        self.txt_mostrar = ('Coches aparcados',
-                            'Coches en camino a aparcamiento',
-                            'Coches en tránsito',
-                            'Coches buscando aparcamiento',
-                            'Plazas Libres')
+        self.txt_mostrar = ('Parked cars',
+                            'Cars travelling for 1st parking',
+                            'Non parking cars',
+                            'Cars searching parking',
+                            'Free slots')
         self.lista_labels_actualizar = list()
         self.window = Tk()
         self.window.resizable(False, False)
@@ -74,7 +74,7 @@ class TkinterApp(object):
                 padx=10)
         Button(
             self.window,
-            text="Ver coches aparcados",
+            text="Open parked cars",
             command=lambda: self.callback()).grid(
             row=5,
             columnspan=2,
@@ -110,7 +110,7 @@ class TkinterApp(object):
             # vehiculo
             ventana_detalle = Toplevel()
             ventana_detalle.resizable(False, False)
-            ventana_detalle.title("Detalle vehiculo " + str(valor))
+            ventana_detalle.title("Vehicle details " + str(valor))
             mostrar = (
                 "Hora Entrada",
                 "T busqueda real",
@@ -124,10 +124,23 @@ class TkinterApp(object):
                 "Parking",
                 "Secciones intento aparcamiento",
                 "Seccion de paso")
-            for texto, contador in zip(mostrar, count(0)):
+            mostrar_eng = (
+                "Entry simulation hour",
+                "Search time",
+                "Destination node",
+                "Parking node",
+                "Distance between nodes",
+                "Parking atteempts",
+                "Tariff",
+                "Parking simulation hour",
+                "Parking duration",
+                "off-street Parking",
+                "Sections attempted",
+                "Park in a cross section?")
+            for texto, texto_eng, contador in zip(mostrar, mostrar_eng,count(0)):
                 Label(
                     ventana_detalle,
-                    text=texto).grid(
+                    text=texto_eng).grid(
                     column=0,
                     row=contador,
                     padx=10,
@@ -143,7 +156,7 @@ class TkinterApp(object):
                     padx=10)
             Button(
                 ventana_detalle,
-                text="Ver mapas",
+                text="Show maps",
                 command=lambda: self.abrir_ventana_mapas(fila)).grid(
                 row=12,
                 columnspan=2,
@@ -157,22 +170,30 @@ class TkinterApp(object):
             diccionario = cola2.get(0)
             if from_excel:
                 diccionario = pd.read_excel(
-                    r"C:\Users\Tablet\Desktop\2020-05-19__13_49_12_informe.xlsx")
-            df_mostrar = copy.deepcopy(diccionario)
+                    r"C:\Users\Tablet\Desktop\2020-06-02__14_06_16_informe.xlsx")
+                df_mostrar = copy.deepcopy(diccionario)
+##                print(df_mostrar)
+                df_mostrar.set_index('ID', inplace=True)
+            else:
+                df_mostrar = copy.deepcopy(diccionario)
+                df_mostrar.set_index('ID', inplace=True)
+            
 #            print(df_mostrar.head())
-            df_mostrar.set_index('ID', inplace=True)
             self.ventana = Toplevel()
             self.ventana.title('Coches aparcados')
             self.ventana.resizable(False, False)
             self.tabla = Treeview(
                 self.ventana,
                 columns=(
-                    "coche",
-                    "destino",
+                    "car",
+                    "destination",
                     "park",
-                    "intentos"))
+                    "attempts"))
             self.tabla['show'] = 'headings'
-            for columna in ("coche", "destino", "park", "intentos"):
+            for columna in ("car",
+                    "destination",
+                    "park",
+                    "attempts"):
                 self.tabla.column(columna, width=100, anchor='c')
             self.vsb = Scrollbar(
                 self.ventana,
@@ -181,20 +202,20 @@ class TkinterApp(object):
             self.vsb.pack(side='right', fill='y')
             self.tabla.bind('<Double-1>', self.OnDoubleClick)
             self.tabla.configure(yscrollcommand=self.vsb.set)
-            self.tabla.heading("coche", text="Coche")
-            self.tabla.heading("destino", text="Nodo destino")
-            self.tabla.heading("park", text="Nodo aparcamiento")
-            self.tabla.heading("intentos", text="Intentos")
+            self.tabla.heading("car", text="Car number")
+            self.tabla.heading("destination", text="Destination node")
+            self.tabla.heading("park", text="Parking node")
+            self.tabla.heading("attempts", text="Attempts")
             for index, coche in diccionario.iterrows():
                 self.tabla.insert(
                     "",
                     END,
-                    text=str(index),
+                    text=coche["ID.1"],#str(index),
                     values=(
-                        str(index),
+                        coche["ID.1"],
                         coche["Nodo destino"],
                         coche["Nodo aparcamiento"],
-                        coche["Intentos aparcamiento"]))
+                        coche["Intentos aparcamiento"]))#str(index),
             self.tabla.pack()
 
         except Empty:

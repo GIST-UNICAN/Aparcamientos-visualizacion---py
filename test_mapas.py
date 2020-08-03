@@ -42,7 +42,7 @@ def lanza_mapa(self, dataframe, ruta_carpeta,from_excel=False):
     ventana_carga= tk.Toplevel()
     tk.Label(ventana_carga, text='Cargando mapas').pack()
     ventana_carga.update()
-    ventana_mapas.title("Mapas vehiculo " + id_vehiculo)
+    ventana_mapas.title("Maps vehicle " + id_vehiculo)
     pestañas = Notebook(ventana_mapas)
     # cargamos el selenium que de fondo va a renderizar los mapas 
     driver = selenium.webdriver.Chrome(chrome_options=chrome_options)
@@ -55,11 +55,11 @@ def lanza_mapa(self, dataframe, ruta_carpeta,from_excel=False):
 #    dataframe_partida.set_index('ID', inplace=True, drop = False)
     
     #cargamos los puntos medios de las calles y los puntos iniciales y finales para el path
-    calles_medio= pd.read_excel(r"calles_medios.xls")
+    calles_medio= pd.read_excel(r"D:\Documentos\GitHub\Aparcamientos-visualizacion---py\calles_medios.xls")
     calles_medio.set_index('Name', inplace=True)
-    calles_inicio= pd.read_excel(r"calles_inicios.xls")
+    calles_inicio= pd.read_excel(r"D:\Documentos\GitHub\Aparcamientos-visualizacion---py\calles_inicios.xls")
     calles_inicio.set_index('Name', inplace=True)
-    calles_fin= pd.read_excel(r"calles_finales.xls")
+    calles_fin= pd.read_excel(r"D:\Documentos\GitHub\Aparcamientos-visualizacion---py\calles_finales.xls")
     calles_fin.set_index('Name', inplace=True)
     
     id_coche=id_vehiculo
@@ -116,7 +116,7 @@ def lanza_mapa(self, dataframe, ruta_carpeta,from_excel=False):
             columns=['index', 'util'],
             key_on='feature.properties.Name',
             fill_color='OrRd',
-            legend_name='Utilidad',
+            legend_name='Utility',
         ).add_to(m)
         
         #cogemos el track del vehiculo que estamos siguiendo
@@ -142,10 +142,10 @@ def lanza_mapa(self, dataframe, ruta_carpeta,from_excel=False):
         label=tk.Label(marco,text=ruta_imagen, image=img)
         label.image=img
         label.pack()
-        tk.Label(marco,text='Se representan en azul los puntos de intento de aparcamiento del vehiculo, para una mejor visualización se recomienda ver el mapa interacitivo en el navegador').pack()
-        tk.Button(marco, text="Abrir mapa en navegador",
+        tk.Label(marco,text='For a better user experience open maps in browser is recomended').pack()
+        tk.Button(marco, text="Open map in browser",
                   command= lambda : webbrowser.open(ruta_mapa, new=2)).pack()
-        pestañas.add(marco, text="Iteración {}".format(str(iteracion)), padding=10)
+        pestañas.add(marco, text="Iteration {}".format(str(iteracion)), padding=10)
     
     
     driver.close()

@@ -337,3 +337,591 @@ DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
 DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:61902/session/09772701886d29b190c30fa4bc6eba00/window {}
 DEBUG:urllib3.connectionpool:http://127.0.0.1:61902 "DELETE /session/09772701886d29b190c30fa4bc6eba00/window HTTP/1.1" 200 12
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53174/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:53174
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53174 "POST /session HTTP/1.1" 200 719
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53557/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:53557
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53557 "POST /session HTTP/1.1" 200 719
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53557/session/fa610fa1533a60626d542cc46b9aa3c5/url {"url": "C:\\Program Files\\Aimsun\\Aimsun Next 8.3\\Datos_2020-05-21 13-21-36\\vehiculo_Tipo usuariomapa0.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53557 "POST /session/fa610fa1533a60626d542cc46b9aa3c5/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:53557/session/fa610fa1533a60626d542cc46b9aa3c5/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53557 "GET /session/fa610fa1533a60626d542cc46b9aa3c5/screenshot HTTP/1.1" 200 302864
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53557/session/fa610fa1533a60626d542cc46b9aa3c5/url {"url": "C:\\Program Files\\Aimsun\\Aimsun Next 8.3\\Datos_2020-05-21 13-21-36\\vehiculo_Tipo usuariomapa1.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53557 "POST /session/fa610fa1533a60626d542cc46b9aa3c5/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:53557/session/fa610fa1533a60626d542cc46b9aa3c5/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53557 "GET /session/fa610fa1533a60626d542cc46b9aa3c5/screenshot HTTP/1.1" 200 303300
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:53557/session/fa610fa1533a60626d542cc46b9aa3c5/window {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53557 "DELETE /session/fa610fa1533a60626d542cc46b9aa3c5/window HTTP/1.1" 200 12
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53997/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:53997
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53997 "POST /session HTTP/1.1" 200 718
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53997/session/393f03a6831ee2e1a592e48ea631d6bd/url {"url": "C:\\Program Files\\Aimsun\\Aimsun Next 8.3\\Datos_2020-05-21 13-23-33\\vehiculo_Tipo usuariomapa0.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53997 "POST /session/393f03a6831ee2e1a592e48ea631d6bd/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:53997/session/393f03a6831ee2e1a592e48ea631d6bd/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53997 "GET /session/393f03a6831ee2e1a592e48ea631d6bd/screenshot HTTP/1.1" 200 301776
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53997/session/393f03a6831ee2e1a592e48ea631d6bd/url {"url": "C:\\Program Files\\Aimsun\\Aimsun Next 8.3\\Datos_2020-05-21 13-23-33\\vehiculo_Tipo usuariomapa1.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53997 "POST /session/393f03a6831ee2e1a592e48ea631d6bd/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:53997/session/393f03a6831ee2e1a592e48ea631d6bd/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53997 "GET /session/393f03a6831ee2e1a592e48ea631d6bd/screenshot HTTP/1.1" 200 305356
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53997/session/393f03a6831ee2e1a592e48ea631d6bd/url {"url": "C:\\Program Files\\Aimsun\\Aimsun Next 8.3\\Datos_2020-05-21 13-23-33\\vehiculo_Tipo usuariomapa2.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53997 "POST /session/393f03a6831ee2e1a592e48ea631d6bd/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:53997/session/393f03a6831ee2e1a592e48ea631d6bd/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53997 "GET /session/393f03a6831ee2e1a592e48ea631d6bd/screenshot HTTP/1.1" 200 309400
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53997/session/393f03a6831ee2e1a592e48ea631d6bd/url {"url": "C:\\Program Files\\Aimsun\\Aimsun Next 8.3\\Datos_2020-05-21 13-23-33\\vehiculo_Tipo usuariomapa3.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53997 "POST /session/393f03a6831ee2e1a592e48ea631d6bd/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:53997/session/393f03a6831ee2e1a592e48ea631d6bd/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53997 "GET /session/393f03a6831ee2e1a592e48ea631d6bd/screenshot HTTP/1.1" 200 311168
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53997/session/393f03a6831ee2e1a592e48ea631d6bd/url {"url": "C:\\Program Files\\Aimsun\\Aimsun Next 8.3\\Datos_2020-05-21 13-23-33\\vehiculo_Tipo usuariomapa4.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53997 "POST /session/393f03a6831ee2e1a592e48ea631d6bd/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:53997/session/393f03a6831ee2e1a592e48ea631d6bd/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53997 "GET /session/393f03a6831ee2e1a592e48ea631d6bd/screenshot HTTP/1.1" 200 313316
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:53997/session/393f03a6831ee2e1a592e48ea631d6bd/url {"url": "C:\\Program Files\\Aimsun\\Aimsun Next 8.3\\Datos_2020-05-21 13-23-33\\vehiculo_Tipo usuariomapa5.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53997 "POST /session/393f03a6831ee2e1a592e48ea631d6bd/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:53997/session/393f03a6831ee2e1a592e48ea631d6bd/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53997 "GET /session/393f03a6831ee2e1a592e48ea631d6bd/screenshot HTTP/1.1" 200 314616
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:53997/session/393f03a6831ee2e1a592e48ea631d6bd/window {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:53997 "DELETE /session/393f03a6831ee2e1a592e48ea631d6bd/window HTTP/1.1" 200 12
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: D:\Descargas
+ERROR:root:ruta_local: D:\Descargas
+INFO:root:ruta_local: D:\Descargas
+ERROR:root:ruta_local: D:\Descargas
+INFO:root:ruta_local: D:\Descargas
+ERROR:root:ruta_local: D:\Descargas
+INFO:root:ruta_local: D:\Descargas
+ERROR:root:ruta_local: D:\Descargas
+INFO:root:ruta_local: D:\Descargas
+ERROR:root:ruta_local: D:\Descargas
+INFO:root:ruta_local: D:\Descargas
+ERROR:root:ruta_local: D:\Descargas
+INFO:root:ruta_local: D:\Descargas
+ERROR:root:ruta_local: D:\Descargas
+INFO:root:ruta_local: D:\Descargas
+ERROR:root:ruta_local: D:\Descargas
+INFO:root:ruta_local: D:\Descargas
+ERROR:root:ruta_local: D:\Descargas
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:60644/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:60644
+DEBUG:urllib3.connectionpool:http://127.0.0.1:60644 "POST /session HTTP/1.1" 500 988
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:60843/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:60843
+DEBUG:urllib3.connectionpool:http://127.0.0.1:60843 "POST /session HTTP/1.1" 500 988
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61020/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:61020
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61020 "POST /session HTTP/1.1" 200 717
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61020/session/31450925c2a87f6d7b1489d988b92cc7/url {"url": "D:\\Descargas\\Datos_2020-06-02 13-47-20\\vehiculo_Tipo usuariomapa0.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61020 "POST /session/31450925c2a87f6d7b1489d988b92cc7/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:61020/session/31450925c2a87f6d7b1489d988b92cc7/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61020 "GET /session/31450925c2a87f6d7b1489d988b92cc7/screenshot HTTP/1.1" 200 301664
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:61020/session/31450925c2a87f6d7b1489d988b92cc7/window {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61020 "DELETE /session/31450925c2a87f6d7b1489d988b92cc7/window HTTP/1.1" 200 12
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61124/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:61124
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61124 "POST /session HTTP/1.1" 200 718
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61124/session/d68f418587eb797804e429ae4e612115/url {"url": "D:\\Descargas\\Datos_2020-06-02 13-47-20\\vehiculo_Tipo usuariomapa0.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61124 "POST /session/d68f418587eb797804e429ae4e612115/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:61124/session/d68f418587eb797804e429ae4e612115/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61124 "GET /session/d68f418587eb797804e429ae4e612115/screenshot HTTP/1.1" 200 302564
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61124/session/d68f418587eb797804e429ae4e612115/url {"url": "D:\\Descargas\\Datos_2020-06-02 13-47-20\\vehiculo_Tipo usuariomapa1.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61124 "POST /session/d68f418587eb797804e429ae4e612115/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:61124/session/d68f418587eb797804e429ae4e612115/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61124 "GET /session/d68f418587eb797804e429ae4e612115/screenshot HTTP/1.1" 200 304844
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61124/session/d68f418587eb797804e429ae4e612115/url {"url": "D:\\Descargas\\Datos_2020-06-02 13-47-20\\vehiculo_Tipo usuariomapa2.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61124 "POST /session/d68f418587eb797804e429ae4e612115/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:61124/session/d68f418587eb797804e429ae4e612115/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61124 "GET /session/d68f418587eb797804e429ae4e612115/screenshot HTTP/1.1" 200 304348
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:61124/session/d68f418587eb797804e429ae4e612115/window {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61124 "DELETE /session/d68f418587eb797804e429ae4e612115/window HTTP/1.1" 200 12
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61298/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:61298
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61298 "POST /session HTTP/1.1" 200 718
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61298/session/8a92870571b1cfe9e6a259ff73889160/url {"url": "D:\\Descargas\\Datos_2020-06-02 13-47-20\\vehiculo_Tipo usuariomapa0.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61298 "POST /session/8a92870571b1cfe9e6a259ff73889160/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:61298/session/8a92870571b1cfe9e6a259ff73889160/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61298 "GET /session/8a92870571b1cfe9e6a259ff73889160/screenshot HTTP/1.1" 200 301364
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:61298/session/8a92870571b1cfe9e6a259ff73889160/window {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61298 "DELETE /session/8a92870571b1cfe9e6a259ff73889160/window HTTP/1.1" 200 12
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:ruta_local: D:\Descargas
+ERROR:root:ruta_local: D:\Descargas
+INFO:root:ruta_local: D:\Descargas
+ERROR:root:ruta_local: D:\Descargas
+INFO:root:ruta_local: D:\Descargas
+ERROR:root:ruta_local: D:\Descargas
+INFO:root:ruta_local: D:\Descargas
+ERROR:root:ruta_local: D:\Descargas
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:62058/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:62058
+DEBUG:urllib3.connectionpool:http://127.0.0.1:62058 "POST /session HTTP/1.1" 200 717
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:62058/session/11995d761f1751e2cf53462e6fdfe47a/url {"url": "D:\\Descargas\\Datos_2020-06-02 13-56-04\\vehiculo_Tipo usuariomapa0.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:62058 "POST /session/11995d761f1751e2cf53462e6fdfe47a/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:62058/session/11995d761f1751e2cf53462e6fdfe47a/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:62058 "GET /session/11995d761f1751e2cf53462e6fdfe47a/screenshot HTTP/1.1" 200 302512
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:62058/session/11995d761f1751e2cf53462e6fdfe47a/url {"url": "D:\\Descargas\\Datos_2020-06-02 13-56-04\\vehiculo_Tipo usuariomapa1.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:62058 "POST /session/11995d761f1751e2cf53462e6fdfe47a/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:62058/session/11995d761f1751e2cf53462e6fdfe47a/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:62058 "GET /session/11995d761f1751e2cf53462e6fdfe47a/screenshot HTTP/1.1" 200 304136
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:62058/session/11995d761f1751e2cf53462e6fdfe47a/url {"url": "D:\\Descargas\\Datos_2020-06-02 13-56-04\\vehiculo_Tipo usuariomapa2.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:62058 "POST /session/11995d761f1751e2cf53462e6fdfe47a/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:62058/session/11995d761f1751e2cf53462e6fdfe47a/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:62058 "GET /session/11995d761f1751e2cf53462e6fdfe47a/screenshot HTTP/1.1" 200 305580
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:62058/session/11995d761f1751e2cf53462e6fdfe47a/url {"url": "D:\\Descargas\\Datos_2020-06-02 13-56-04\\vehiculo_Tipo usuariomapa3.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:62058 "POST /session/11995d761f1751e2cf53462e6fdfe47a/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:62058/session/11995d761f1751e2cf53462e6fdfe47a/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:62058 "GET /session/11995d761f1751e2cf53462e6fdfe47a/screenshot HTTP/1.1" 200 304916
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:62058/session/11995d761f1751e2cf53462e6fdfe47a/window {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:62058 "DELETE /session/11995d761f1751e2cf53462e6fdfe47a/window HTTP/1.1" 200 12
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:ruta_local: D:\Descargas
+ERROR:root:ruta_local: D:\Descargas
+INFO:root:ruta_local: D:\Descargas
+ERROR:root:ruta_local: D:\Descargas
+INFO:root:ruta_local: D:\Descargas
+ERROR:root:ruta_local: D:\Descargas
+INFO:root:ruta_local: D:\Descargas
+ERROR:root:ruta_local: D:\Descargas
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:65373/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:65373
+DEBUG:urllib3.connectionpool:http://127.0.0.1:65373 "POST /session HTTP/1.1" 200 716
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:65373/session/0b9e6ba16cf4f2b4a869c4457ef36590/url {"url": "D:\\Documentos\\GitHub\\Aparcamientos-visualizacion---py\\Datos_2020-06-02 14-17-44\\vehiculo_ID.1mapa0.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:65373 "POST /session/0b9e6ba16cf4f2b4a869c4457ef36590/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:65373/session/0b9e6ba16cf4f2b4a869c4457ef36590/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:65373 "GET /session/0b9e6ba16cf4f2b4a869c4457ef36590/screenshot HTTP/1.1" 200 304540
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:65373/session/0b9e6ba16cf4f2b4a869c4457ef36590/url {"url": "D:\\Documentos\\GitHub\\Aparcamientos-visualizacion---py\\Datos_2020-06-02 14-17-44\\vehiculo_ID.1mapa1.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:65373 "POST /session/0b9e6ba16cf4f2b4a869c4457ef36590/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:65373/session/0b9e6ba16cf4f2b4a869c4457ef36590/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:65373 "GET /session/0b9e6ba16cf4f2b4a869c4457ef36590/screenshot HTTP/1.1" 200 305564
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:65373/session/0b9e6ba16cf4f2b4a869c4457ef36590/window {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:65373 "DELETE /session/0b9e6ba16cf4f2b4a869c4457ef36590/window HTTP/1.1" 200 12
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+INFO:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+ERROR:root:ruta_local: D:\Documentos\GitHub\Aparcamientos-visualizacion---py
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:49910/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:49910
+DEBUG:urllib3.connectionpool:http://127.0.0.1:49910 "POST /session HTTP/1.1" 200 718
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:49910/session/04a78c12ecdd59ae417498b6d26de294/url {"url": "D:\\Documentos\\GitHub\\Aparcamientos-visualizacion---py\\Datos_2020-06-02 14-21-47\\vehiculo_ID.1mapa0.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:49910 "POST /session/04a78c12ecdd59ae417498b6d26de294/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:49910/session/04a78c12ecdd59ae417498b6d26de294/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:49910 "GET /session/04a78c12ecdd59ae417498b6d26de294/screenshot HTTP/1.1" 200 300668
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:49910/session/04a78c12ecdd59ae417498b6d26de294/url {"url": "D:\\Documentos\\GitHub\\Aparcamientos-visualizacion---py\\Datos_2020-06-02 14-21-47\\vehiculo_ID.1mapa1.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:49910 "POST /session/04a78c12ecdd59ae417498b6d26de294/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:49910/session/04a78c12ecdd59ae417498b6d26de294/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:49910 "GET /session/04a78c12ecdd59ae417498b6d26de294/screenshot HTTP/1.1" 200 301872
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:49910/session/04a78c12ecdd59ae417498b6d26de294/url {"url": "D:\\Documentos\\GitHub\\Aparcamientos-visualizacion---py\\Datos_2020-06-02 14-21-47\\vehiculo_ID.1mapa2.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:49910 "POST /session/04a78c12ecdd59ae417498b6d26de294/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:49910/session/04a78c12ecdd59ae417498b6d26de294/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:49910 "GET /session/04a78c12ecdd59ae417498b6d26de294/screenshot HTTP/1.1" 200 302128
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:49910/session/04a78c12ecdd59ae417498b6d26de294/url {"url": "D:\\Documentos\\GitHub\\Aparcamientos-visualizacion---py\\Datos_2020-06-02 14-21-47\\vehiculo_ID.1mapa3.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:49910 "POST /session/04a78c12ecdd59ae417498b6d26de294/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:49910/session/04a78c12ecdd59ae417498b6d26de294/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:49910 "GET /session/04a78c12ecdd59ae417498b6d26de294/screenshot HTTP/1.1" 200 305096
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:49910/session/04a78c12ecdd59ae417498b6d26de294/url {"url": "D:\\Documentos\\GitHub\\Aparcamientos-visualizacion---py\\Datos_2020-06-02 14-21-47\\vehiculo_ID.1mapa4.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:49910 "POST /session/04a78c12ecdd59ae417498b6d26de294/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:49910/session/04a78c12ecdd59ae417498b6d26de294/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:49910 "GET /session/04a78c12ecdd59ae417498b6d26de294/screenshot HTTP/1.1" 200 306772
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:49910/session/04a78c12ecdd59ae417498b6d26de294/window {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:49910 "DELETE /session/04a78c12ecdd59ae417498b6d26de294/window HTTP/1.1" 200 12
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50041/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:50041
+DEBUG:urllib3.connectionpool:http://127.0.0.1:50041 "POST /session HTTP/1.1" 200 718
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50041/session/c4972fc5c74db3aedf5e20fc5e6f9665/url {"url": "D:\\Documentos\\GitHub\\Aparcamientos-visualizacion---py\\Datos_2020-06-02 14-21-47\\vehiculo_ID.1mapa0.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:50041 "POST /session/c4972fc5c74db3aedf5e20fc5e6f9665/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50041/session/c4972fc5c74db3aedf5e20fc5e6f9665/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:50041 "GET /session/c4972fc5c74db3aedf5e20fc5e6f9665/screenshot HTTP/1.1" 200 302076
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:50041/session/c4972fc5c74db3aedf5e20fc5e6f9665/window {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:50041 "DELETE /session/c4972fc5c74db3aedf5e20fc5e6f9665/window HTTP/1.1" 200 12
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50168/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:50168
+DEBUG:urllib3.connectionpool:http://127.0.0.1:50168 "POST /session HTTP/1.1" 200 717
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50168/session/aaeae9bd4f907f18ea626010f7e0667d/url {"url": "D:\\Documentos\\GitHub\\Aparcamientos-visualizacion---py\\Datos_2020-06-02 14-21-47\\vehiculo_ID.1mapa0.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:50168 "POST /session/aaeae9bd4f907f18ea626010f7e0667d/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50168/session/aaeae9bd4f907f18ea626010f7e0667d/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:50168 "GET /session/aaeae9bd4f907f18ea626010f7e0667d/screenshot HTTP/1.1" 200 301952
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50168/session/aaeae9bd4f907f18ea626010f7e0667d/url {"url": "D:\\Documentos\\GitHub\\Aparcamientos-visualizacion---py\\Datos_2020-06-02 14-21-47\\vehiculo_ID.1mapa1.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:50168 "POST /session/aaeae9bd4f907f18ea626010f7e0667d/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50168/session/aaeae9bd4f907f18ea626010f7e0667d/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:50168 "GET /session/aaeae9bd4f907f18ea626010f7e0667d/screenshot HTTP/1.1" 200 302572
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:50168/session/aaeae9bd4f907f18ea626010f7e0667d/window {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:50168 "DELETE /session/aaeae9bd4f907f18ea626010f7e0667d/window HTTP/1.1" 200 12
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50375/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:50375
+DEBUG:urllib3.connectionpool:http://127.0.0.1:50375 "POST /session HTTP/1.1" 200 718
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50375/session/48124bc84d4e68c1a255adc332c5d47f/url {"url": "D:\\Documentos\\GitHub\\Aparcamientos-visualizacion---py\\Datos_2020-06-02 14-21-47\\vehiculo_ID.1mapa0.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:50375 "POST /session/48124bc84d4e68c1a255adc332c5d47f/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50375/session/48124bc84d4e68c1a255adc332c5d47f/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:50375 "GET /session/48124bc84d4e68c1a255adc332c5d47f/screenshot HTTP/1.1" 200 304132
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50375/session/48124bc84d4e68c1a255adc332c5d47f/url {"url": "D:\\Documentos\\GitHub\\Aparcamientos-visualizacion---py\\Datos_2020-06-02 14-21-47\\vehiculo_ID.1mapa1.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:50375 "POST /session/48124bc84d4e68c1a255adc332c5d47f/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50375/session/48124bc84d4e68c1a255adc332c5d47f/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:50375 "GET /session/48124bc84d4e68c1a255adc332c5d47f/screenshot HTTP/1.1" 200 305144
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:50375/session/48124bc84d4e68c1a255adc332c5d47f/window {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:50375 "DELETE /session/48124bc84d4e68c1a255adc332c5d47f/window HTTP/1.1" 200 12
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61371/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "--window-size=680,530"]}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:61371
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61371 "POST /session HTTP/1.1" 200 717
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61371/session/881fa9302bfd64c7f5e51a9e2ba37675/url {"url": "C:\\Program Files\\Aimsun\\Aimsun Next 8.3\\Datos_2020-06-04 16-45-21\\vehiculo_ID.1mapa0.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61371 "POST /session/881fa9302bfd64c7f5e51a9e2ba37675/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:61371/session/881fa9302bfd64c7f5e51a9e2ba37675/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61371 "GET /session/881fa9302bfd64c7f5e51a9e2ba37675/screenshot HTTP/1.1" 200 300728
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61371/session/881fa9302bfd64c7f5e51a9e2ba37675/url {"url": "C:\\Program Files\\Aimsun\\Aimsun Next 8.3\\Datos_2020-06-04 16-45-21\\vehiculo_ID.1mapa1.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61371 "POST /session/881fa9302bfd64c7f5e51a9e2ba37675/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:61371/session/881fa9302bfd64c7f5e51a9e2ba37675/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61371 "GET /session/881fa9302bfd64c7f5e51a9e2ba37675/screenshot HTTP/1.1" 200 301828
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61371/session/881fa9302bfd64c7f5e51a9e2ba37675/url {"url": "C:\\Program Files\\Aimsun\\Aimsun Next 8.3\\Datos_2020-06-04 16-45-21\\vehiculo_ID.1mapa2.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61371 "POST /session/881fa9302bfd64c7f5e51a9e2ba37675/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:61371/session/881fa9302bfd64c7f5e51a9e2ba37675/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61371 "GET /session/881fa9302bfd64c7f5e51a9e2ba37675/screenshot HTTP/1.1" 200 302140
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61371/session/881fa9302bfd64c7f5e51a9e2ba37675/url {"url": "C:\\Program Files\\Aimsun\\Aimsun Next 8.3\\Datos_2020-06-04 16-45-21\\vehiculo_ID.1mapa3.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61371 "POST /session/881fa9302bfd64c7f5e51a9e2ba37675/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:61371/session/881fa9302bfd64c7f5e51a9e2ba37675/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61371 "GET /session/881fa9302bfd64c7f5e51a9e2ba37675/screenshot HTTP/1.1" 200 305064
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61371/session/881fa9302bfd64c7f5e51a9e2ba37675/url {"url": "C:\\Program Files\\Aimsun\\Aimsun Next 8.3\\Datos_2020-06-04 16-45-21\\vehiculo_ID.1mapa4.html"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61371 "POST /session/881fa9302bfd64c7f5e51a9e2ba37675/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:61371/session/881fa9302bfd64c7f5e51a9e2ba37675/screenshot {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61371 "GET /session/881fa9302bfd64c7f5e51a9e2ba37675/screenshot HTTP/1.1" 200 306660
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'sRGB' 41 1
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 54 8192
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:61371/session/881fa9302bfd64c7f5e51a9e2ba37675/window {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61371 "DELETE /session/881fa9302bfd64c7f5e51a9e2ba37675/window HTTP/1.1" 200 12
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+INFO:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
+ERROR:root:ruta_local: C:\Program Files\Aimsun\Aimsun Next 8.3
